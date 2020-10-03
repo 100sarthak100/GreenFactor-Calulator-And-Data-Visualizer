@@ -1,20 +1,25 @@
 import React from 'react'
-import List from '@material-ui/core/List'
-import ListItem from '@material-ui/core/ListItem'
-import ListItemText from '@material-ui/core/ListItemText'
+import { Nav } from 'react-bootstrap'
 
 function Sidebars({ items }) {
   return (
-    <div className="sidebar">
-      <List disablePadding dense>
-        {items.map(({ label, name, ...rest }) => (
-          <ListItem key={name} button {...rest}>
-            <ListItemText>{label}</ListItemText>
-          </ListItem>
-          
-        ))}
-      </List>
-    </div>
+    <>
+      <Nav className="col-md-12 d-none d-md-block bg-light sidebar "
+        // activeKey="/home"
+        onSelect={selectedKey => alert(`selected ${selectedKey}`)}
+        >
+        <div className="sidebar-sticky"></div>
+        <Nav.Item>
+            <Nav.Link href="/home">Home</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+            <Nav.Link href="/data">App Data</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+            <Nav.Link href="/user">User Data</Nav.Link>
+        </Nav.Item>
+      </Nav>
+    </>
   )
 }
 

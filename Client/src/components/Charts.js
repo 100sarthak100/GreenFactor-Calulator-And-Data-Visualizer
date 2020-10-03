@@ -20,7 +20,7 @@ export class Charts extends Component {
                          data: this.state.AppDatas,
                      },
                  ]
-             }
+            }
         }
     }
     
@@ -51,17 +51,17 @@ export class Charts extends Component {
             
     render() {
         return (
-            <div>
+            <>
                 <h2>GreenFactor : {this.state.GreenFactor}</h2>
                 <br />
                 <h2>Data Graph</h2>
                 <Line 
                     options={{
-                        responsive: true,
+                        maintainAspectRatio : false
                     }}
                     data={this.state.data}
                 />
-            </div>
+            </>
         )
     }
 }

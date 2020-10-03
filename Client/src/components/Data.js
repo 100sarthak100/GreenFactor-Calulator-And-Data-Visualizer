@@ -51,7 +51,7 @@ class data extends Component {
               <div >
                 <h2>GreenFactor : {this.state.GreenFactor}</h2>
               </div>
-                <table className="table">
+              <table className="table">
                     <thead className="thead-light">
                     <tr>
                     <th>productName</th>
@@ -63,7 +63,7 @@ class data extends Component {
                 <tbody>
                     { this.AppDataList() }
                 </tbody>
-                </table>
+              </table>
             </div>
         )
     }
