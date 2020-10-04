@@ -87,12 +87,13 @@ class users extends Component {
         return (
             <div>
                 <br />
-            <div style={{position: "relative", width: 1000, height: 200}}>
+            <div style={{ maxWidth:800}}>
             <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '4vh'}}>
-                <h1> GreenFactor : {this.state.GreenFactor} </h1>
+                <h2> GreenFactor : {this.state.GreenFactor} </h2>
             </div>
                 <br />
                 <div><h2>Data Analysis</h2></div>
+                <br />
                 <Line 
                     options={{
                         responsive: true,
