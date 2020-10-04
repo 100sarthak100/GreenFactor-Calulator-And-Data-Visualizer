@@ -17,6 +17,8 @@ The target of the project is to find the green factor (quantative measure of bio
 
 The green factor can be used as a search bar for sorting and classification of products on the basis of biodegradablity and eco-friendliness.
 
+![mern](images/MainApp.PNG)
+
 #### Technologies
 
 - MERN stack
