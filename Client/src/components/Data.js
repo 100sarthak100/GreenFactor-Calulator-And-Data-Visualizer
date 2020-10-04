@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const AppData = props => (
@@ -51,7 +50,7 @@ class data extends Component {
               <div >
                 <h2>GreenFactor : {this.state.GreenFactor}</h2>
               </div>
-                <table className="table">
+              <table className="table">
                     <thead className="thead-light">
                     <tr>
                     <th>productName</th>
@@ -63,7 +62,7 @@ class data extends Component {
                 <tbody>
                     { this.AppDataList() }
                 </tbody>
-                </table>
+              </table>
             </div>
         )
     }

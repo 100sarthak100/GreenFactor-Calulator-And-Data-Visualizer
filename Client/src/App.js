@@ -20,7 +20,7 @@ function App() {
     <Router>
       <Navbar />
       <Container fluid>
-        <Row >
+        <Row>
             <Col xs={2} id="sidebar-wrapper">
               <Sidebar />
             </Col>
