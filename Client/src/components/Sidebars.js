@@ -10,13 +10,13 @@ function Sidebars({ items }) {
         >
         <div className="sidebar-sticky"></div>
         <Nav.Item>
-            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/home" className="inactive">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link href="/data">App Data</Nav.Link>
+            <Nav.Link href="/data" className="inactive">App Data</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link href="/user">User Data</Nav.Link>
+            <Nav.Link href="/user" className="inactive">User Data</Nav.Link>
         </Nav.Item>
       </Nav>
     </>

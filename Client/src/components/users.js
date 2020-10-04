@@ -87,7 +87,7 @@ class users extends Component {
         return (
             <div>
                 <br />
-            <div style={{ maxWidth:1000}}>
+            <div style={{ maxWidth:800}}>
             <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '4vh'}}>
                 <h2> GreenFactor : {this.state.GreenFactor} </h2>
             </div>
