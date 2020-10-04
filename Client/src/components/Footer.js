@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
             <div>
                 <div className="footer-block" />
-                <div className="footer">
+                <div className="footer bg-dark">
                     2020 GreenFactor
                 </div>
             </div>

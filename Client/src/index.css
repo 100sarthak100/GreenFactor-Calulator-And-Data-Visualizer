@@ -56,10 +56,11 @@ code {
 }
 
 .footer {
+  color: white;
   z-index: 999;
   overflow: hidden;
-  background-color: #F8F8F8;
-  border-top: 1px solid #E7E7E7;
+  /* background-color: #F8F8F8;
+  border-top: 1px solid #E7E7E7; */
   text-align: center;
   padding: 20px;
   position: fixed;

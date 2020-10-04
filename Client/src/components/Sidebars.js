@@ -4,9 +4,9 @@ import { Nav } from 'react-bootstrap'
 function Sidebars({ items }) {
   return (
     <>
-      <Nav className="col-md-12 d-none d-md-block bg-light sidebar "
+      <Nav className="col-md-12 d-none d-md-block bg-dark sidebar "
         // activeKey="/home"
-        onSelect={selectedKey => alert(`selected ${selectedKey}`)}
+        // onSelect={selectedKey => alert(`selected ${selectedKey}`)}
         >
         <div className="sidebar-sticky"></div>
         <Nav.Item>
