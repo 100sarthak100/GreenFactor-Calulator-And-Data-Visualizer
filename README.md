@@ -33,38 +33,24 @@ The green factor can be used as a search bar for sorting and classification of p
 
 #### Installation
 
-To run the project
+To run the project, first clone the repo in your local system, then type these commands
 
 ```bash
 cd client
-```
-
-```bash
 npm install
-```
-
-```bash
 npm start
 ```
 A browser window will open.
-
-![mern](images/MERN.PNG)
-This confirms the app is running fine.
-
 
 To run server side, in the new terminal run the following commands
 
 ```bash
 cd server
-```
-
-```bash
 npm install
-```
-
-```bash
 npm start
 ```
+![mern](images/MERN.PNG)
+This confirms the app is running fine.
 
 For the database, make a free account of MongoDB, and copy the URL provided. Make a **.env file** and paste the URL there. 
 
