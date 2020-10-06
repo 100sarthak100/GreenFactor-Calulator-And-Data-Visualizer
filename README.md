@@ -40,11 +40,11 @@ cd client
 ```
 
 ```bash
-npn install
+npm install
 ```
 
 ```bash
-npn start
+npm start
 ```
 A browser window will open.
 
@@ -59,11 +59,11 @@ cd server
 ```
 
 ```bash
-npn install
+npm install
 ```
 
 ```bash
-npn start
+npm start
 ```
 
 For the database, make a free account of MongoDB, and copy the URL provided. Make a **.env file** and paste the URL there. 
